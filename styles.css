@@ -1,0 +1,171 @@
+* {
+    /* border:1px solid red; */
+    font-family: Roboto, sans-serif;
+    padding: 0;
+    margin:0;
+    border:0;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    justify-content:space-between;
+}
+
+.header-right {
+    display:flex;
+}
+
+.header-right li {
+    margin-left:20px;
+}
+
+header {
+    padding:30px;
+    color: #cbcdd0;
+}
+
+.hero-space, .header, footer {
+    background-color: #1F2937;
+}
+
+.hero-space {
+    display:flex;
+    padding: 30px 40px 80px 20px;
+    justify-content: center;
+    
+}
+
+.hero-space-left {
+    width: 480px;
+    padding: 30px;
+    /* display:flex; */
+    /* flex-direction:column; */
+
+}
+
+.hero-main-text {
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 48px;
+
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color:#E5E7EB;
+    padding-bottom:10px
+
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    padding:7px 28px;
+    color:white;
+    font-weight: bold;
+    border-radius: 9%;
+    font-size: 16px;
+    /* width: 110px; */
+    /* height: 30px; */
+}
+
+.sign-up-button-two {
+    border: 3px solid white;
+
+}
+
+.information-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin:30px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.image-placeholder {
+    width: 430px;
+    height:190px;
+    background-color: #6d757d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:25px;
+
+}
+
+.image-placeholder-text {
+    color: white;
+}
+
+.empty-box {
+    width:150px;
+    height:150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.box-text-combo {
+    width: 150px;
+    height: 200px;
+    margin: 30px;
+}
+
+.text-under-empty-box {
+    text-align: center;
+    padding-top: 10px;;
+}
+
+.row-of-boxes {
+    display:flex;
+    justify-content:center;
+}
+
+.info {
+    margin-top:20px;
+    margin-bottom:110px; 
+}
+
+.quote-section {
+    padding: 100px 180px;
+}
+
+.quote-text {
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-to-action {
+    display:flex;
+    color: white;
+    background-color: #3882F6;
+    padding: 40px;
+    margin: 80px;
+    justify-content: space-around;
+}
+
+footer {
+    color:white;
+    padding: 30px;
+    text-align: center;
+}
+
